@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="picture_image_height">95dp</dimen>
+    <dimen name="picture_roll_margin">12dp</dimen>
+    <dimen name="picture_margin">4dp</dimen>
+</resources>
