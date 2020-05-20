@@ -11,7 +11,7 @@ Additionally, memory events are observed and appropriate actions are taken depen
 of the situation. Actions range from applying a factor on the cache max capacity, to evicting all
 cache entries.
 
-# Possible improvements
+# Possible improvements (non exhaustive)
 - Implementing disk-caching for the `Bitmap`s.
 
 - This camera roll application works well for fixed size of relatively small pictures such as the ones
@@ -28,7 +28,9 @@ phase, the user will probably not make a difference between pictures with differ
 of requested results. If it did, it would have been useful to support pagination with a prefetch
 strategy to minimize the perceived loading time.
 
-- Testing coverage is currently low. The only class that is tested is the `CameraRollViewModel`.
+- Priority loading of images that are in the viewport.
 
-- Many UI/UX improvements can be implemented: showing error messages in a Snackbar, offering the possibility to
-switch the positioning of the pictures (Linear vs Grid), tuning the caching policy and much more.
+- A skeleton layout can be implemented to lower the perceived loading time on slow internet connections
+<https://uxdesign.cc/what-you-should-know-about-skeleton-screens-a820c45a571a>.      
+
+- Testing coverage is currently low. The only class that is tested is the `CameraRollViewModel`.

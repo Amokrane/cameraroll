@@ -7,7 +7,6 @@ import com.chentir.cameraroll.PERF_TAG
 import timber.log.Timber
 import kotlin.math.roundToInt
 
-
 class InMemoryBitmapCache(activityManager: ActivityManager) : BitmapCache {
     enum class CacheEvent {
         ADD,

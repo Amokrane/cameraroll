@@ -22,4 +22,4 @@
 local.properties
 
 # Built application files
-/*/build/
+build/
